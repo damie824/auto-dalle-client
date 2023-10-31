@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.26)
+project(auto_dalle C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(.)
+
+add_executable(auto_dalle
+        main.c
+        scripts/sendRequest.h)
+
+find_package(CURL REQUIRED)
+target_link_libraries(auto_dalle PRIVATE CURL::libcurl)
