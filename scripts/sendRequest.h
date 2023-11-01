@@ -56,7 +56,7 @@ char* sendReq(const char* prompt) {
     strcat(post_fields, prompt);
     strcat(post_fields, "\"}");
 
-    printf("%s", post_fields);
+    printf("%s\n", post_fields);
 
     curl_easy_setopt(curl, CURLOPT_URL, URL);
     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, list);
@@ -84,8 +84,6 @@ char* sendReq(const char* prompt) {
     curl_slist_free_all(list);
     curl_easy_cleanup(curl);
     curl_global_cleanup();
-
-    printf("%s", s.ptr);
 
     return s.ptr;
 }

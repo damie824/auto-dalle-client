@@ -1608,6 +1608,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "D:/Working/Codes/ETC/auto-dalle"
+		},
+		{
+			"name" : "json-c_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for json-c."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/Working/Codes/ETC/auto-dalle/cmake-build-debug/vcpkg_installed/x64-windows/share/json-c"
 		}
 	],
 	"kind" : "cache",

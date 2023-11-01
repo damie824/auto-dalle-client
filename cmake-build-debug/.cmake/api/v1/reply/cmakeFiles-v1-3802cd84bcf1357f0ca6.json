@@ -169,6 +169,22 @@
 			"path" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vcpkg_installed/x64-windows/share/json-c/json-c-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vcpkg_installed/x64-windows/share/json-c/json-c-targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vcpkg_installed/x64-windows/share/json-c/json-c-targets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vcpkg_installed/x64-windows/share/json-c/json-c-targets-release.cmake"
+		},
+		{
 			"path" : "vcpkg.json"
 		}
 	],

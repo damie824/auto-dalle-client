@@ -314,6 +314,9 @@ auto_dalle_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 auto_dalle_SOURCE_DIR:STATIC=D:/Working/Codes/ETC/auto-dalle
 
+//The directory containing a CMake configuration file for json-c.
+json-c_DIR:PATH=D:/Working/Codes/ETC/auto-dalle/cmake-build-debug/vcpkg_installed/x64-windows/share/json-c
+
 
 ########################
 # INTERNAL cache entries
