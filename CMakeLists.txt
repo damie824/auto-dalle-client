@@ -8,7 +8,9 @@ include_directories(.)
 add_executable(auto_dalle
         main.c
         scripts/sendRequest.h
-        scripts/parseJson.h)
+        scripts/parseJson.h
+        util/logger.h
+)
 
 find_package(CURL REQUIRED)
 target_link_libraries(auto_dalle PRIVATE CURL::libcurl)

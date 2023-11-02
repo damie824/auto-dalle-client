@@ -8,20 +8,13 @@ curl is compatible with built-in CMake targets:
     find_package(CURL REQUIRED)
     target_link_libraries(main PRIVATE CURL::libcurl)
 
+json-c provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(json-c CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE json-c::json-c json-c::json-c-static)
+
 -- Running vcpkg install - done
-CMake Error at C:/Users/boobo/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package):
-  Could not find a package configuration file provided by "json-c" with any
-  of the following names:
-
-    json-cConfig.cmake
-    json-c-config.cmake
-
-  Add the installation prefix of "json-c" to CMAKE_PREFIX_PATH or set
-  "json-c_DIR" to a directory containing one of the above files.  If "json-c"
-  provides a separate development package or SDK, be sure it has been
-  installed.
-Call Stack (most recent call first):
-  CMakeLists.txt:16 (find_package)
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (4.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Working/Codes/ETC/auto-dalle/cmake-build-debug

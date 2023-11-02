@@ -2,6 +2,7 @@
 #define PARSEJSON_H
 
 #include <json-c/json.h>
+#include <util/logger.h>
 
 char parseJSON(char* data) {
     struct json_object *parsed_json;
