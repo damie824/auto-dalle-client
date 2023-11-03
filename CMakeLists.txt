@@ -10,6 +10,8 @@ add_executable(auto_dalle
         scripts/sendRequest.h
         scripts/parseJson.h
         util/logger.h
+        scripts/downloadImage.h
+        util/readAllFiles.h
 )
 
 find_package(CURL REQUIRED)

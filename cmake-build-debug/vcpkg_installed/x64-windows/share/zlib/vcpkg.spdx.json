@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/zlib-x64-windows-1.3-cab23eb2-d88c-4b60-9e55-5a874b542e63",
+  "documentNamespace": "https://spdx.org/spdxdocs/zlib-x64-windows-1.3-ce0158b3-6656-4d46-b79c-90277646e572",
   "name": "zlib:x64-windows@1.3 e9eb1730544339275579ed4f02cc1ae150acb970e69a7b96138cb39a169eddea",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-27de5b69dac4b6fe8259d283cd4011e6d20a84ce"
     ],
-    "created": "2023-10-31T11:56:42Z"
+    "created": "2023-11-02T04:37:03Z"
   },
   "relationships": [
     {
@@ -108,7 +108,7 @@
       "name": "zlib",
       "SPDXID": "SPDXRef-port",
       "versionInfo": "1.3",
-      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/zlib",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05",
       "homepage": "https://www.zlib.net/",
       "licenseConcluded": "Zlib",
       "licenseDeclared": "NOASSERTION",
@@ -143,7 +143,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -155,7 +155,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/0002-skip-building-examples.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/0002-skip-building-examples.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -167,7 +167,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/0003-build-static-or-shared-not-both.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/0003-build-static-or-shared-not-both.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -179,7 +179,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/0004-android-and-mingw-fixes.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/0004-android-and-mingw-fixes.patch",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -191,7 +191,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/portfile.cmake",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/portfile.cmake",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {
@@ -203,7 +203,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/usage",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/usage",
       "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {
@@ -215,7 +215,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/vcpkg-cmake-wrapper.cmake",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/vcpkg-cmake-wrapper.cmake",
       "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {
@@ -227,7 +227,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg/ports/zlib/vcpkg.json",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/zlib/5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05/vcpkg.json",
       "SPDXID": "SPDXRef-file-7",
       "checksums": [
         {

@@ -1,3 +1,3 @@
-D:/Working/Codes/ETC/auto-dalle/cmake-build-debug/CMakeFiles/auto_dalle.dir
-D:/Working/Codes/ETC/auto-dalle/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Working/Codes/ETC/auto-dalle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/c/auto-dalle-client/cmake-build-debug/CMakeFiles/auto_dalle.dir
+C:/c/auto-dalle-client/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/c/auto-dalle-client/cmake-build-debug/CMakeFiles/rebuild_cache.dir

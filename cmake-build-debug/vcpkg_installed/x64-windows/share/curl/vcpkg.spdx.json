@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/curl-x64-windows-8.4.0-76e00305-9fef-4fa5-962a-5edadb83ef92",
+  "documentNamespace": "https://spdx.org/spdxdocs/curl-x64-windows-8.4.0-d552de70-0ee6-4898-913e-f075cfafc9d5",
   "name": "curl:x64-windows@8.4.0 4a4ce57c0137a7c7f9c0c682d7f8dea3514c73c0ff9e64f52cfe97d7fb6641fc",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-27de5b69dac4b6fe8259d283cd4011e6d20a84ce"
     ],
-    "created": "2023-10-31T12:09:00Z"
+    "created": "2023-11-02T04:41:49Z"
   },
   "relationships": [
     {
@@ -168,7 +168,7 @@
       "name": "curl",
       "SPDXID": "SPDXRef-port",
       "versionInfo": "8.4.0",
-      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/curl",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@6125c796d6e2913a89a2996d7082375ce16b02dd",
       "homepage": "https://curl.se/",
       "licenseConcluded": "curl AND ISC AND BSD-3-Clause",
       "licenseDeclared": "NOASSERTION",
@@ -203,7 +203,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/0002_fix_uwp.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/0002_fix_uwp.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -215,7 +215,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/0005_remove_imp_suffix.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/0005_remove_imp_suffix.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -227,7 +227,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/0012-fix-dependency-idn2.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/0012-fix-dependency-idn2.patch",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -239,7 +239,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/0020-fix-pc-file.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/0020-fix-pc-file.patch",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -251,7 +251,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/0022-deduplicate-libs.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/0022-deduplicate-libs.patch",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {
@@ -263,7 +263,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/cmake-config.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/cmake-config.patch",
       "SPDXID": "SPDXRef-file-5",
       "checksums": [
         {
@@ -275,7 +275,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/cmake-project-include.cmake",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/cmake-project-include.cmake",
       "SPDXID": "SPDXRef-file-6",
       "checksums": [
         {
@@ -287,7 +287,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/dependencies.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/dependencies.patch",
       "SPDXID": "SPDXRef-file-7",
       "checksums": [
         {
@@ -299,7 +299,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/export-components.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/export-components.patch",
       "SPDXID": "SPDXRef-file-8",
       "checksums": [
         {
@@ -311,7 +311,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/mbedtls-ws2_32.patch",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/mbedtls-ws2_32.patch",
       "SPDXID": "SPDXRef-file-9",
       "checksums": [
         {
@@ -323,7 +323,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/portfile.cmake",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/portfile.cmake",
       "SPDXID": "SPDXRef-file-10",
       "checksums": [
         {
@@ -335,7 +335,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/usage",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/usage",
       "SPDXID": "SPDXRef-file-11",
       "checksums": [
         {
@@ -347,7 +347,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/vcpkg-cmake-wrapper.cmake",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/vcpkg-cmake-wrapper.cmake",
       "SPDXID": "SPDXRef-file-12",
       "checksums": [
         {
@@ -359,7 +359,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/boobo/.vcpkg-clion/vcpkg/ports/curl/vcpkg.json",
+      "fileName": "./C:/Users/ebeau/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/curl/6125c796d6e2913a89a2996d7082375ce16b02dd/vcpkg.json",
       "SPDXID": "SPDXRef-file-13",
       "checksums": [
         {

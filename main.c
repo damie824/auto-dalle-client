@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <scripts/downloadImage.h>
 #include <scripts/sendRequest.h>
 #include <scripts/parseJson.h>
 #include <util/logger.h>
@@ -54,9 +55,13 @@ int main(void) {
 
                 res = sendReq(userInput.prompt);
 
-                parseJSON(res);
+                imgres response;
 
-                logger.log("Press enter to continue. (Image will save automatically");
+                response = parseJSON(res);
+
+                downloadimg(response, userInput.prompt);
+
+                logger.log("Press enter to continue. (Image will save automatically)");
                 while( getchar() != '\n' );
                 continue;
             case 2:
@@ -65,10 +70,8 @@ int main(void) {
                 getchar();
                 while( getchar() != '\n' );
                 continue;
-
             case 3:
                 exit(0);
-        }
-        getchar();
+        };
     }
 }
