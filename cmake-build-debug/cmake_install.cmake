@@ -1,4 +1,4 @@
-# Install script for directory: C:/c/auto-dalle-client
+# Install script for directory: D:/Working/Codes/ETC/auto-dalle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/c/auto-dalle-client/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Working/Codes/ETC/auto-dalle/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

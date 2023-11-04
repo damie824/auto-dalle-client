@@ -1,30 +1,42 @@
 #ifndef READFILES_H
 #define READFILES_H
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <dirent.h>
 
-void printFilesInDirectory(const char* directory) {
-    DIR* dir;
-    struct dirent* entry;
+void printFilesInDirectory(const char *directory) {
 
-    // 폴더 열기
-    dir = opendir(directory);
-    if (dir == NULL) {
-        printf("폴더를 열 수 없습니다.");
-        return;
-    }
+	char readingDir[200];
+	snprintf(readingDir, sizeof(readingDir), "Reading : %s", directory);
+	logger.verbose(readingDir);
 
-    // 폴더 내의 파일들 출력
-    while ((entry = readdir(dir)) != NULL) {
-        if (entry->d_name == NULL) {
-            printf("%s\n", entry->d_name);
-        }
-    }
+	DIR *dir;
+	struct dirent *entry;
+	struct stat info;
+	
+	dir = opendir(directory);
+	if(dir == NULL) {
+		logger.error("couldn't open folder");
+		return;
+	}
 
-    // 폴더 닫기
-    closedir(dir);
+	while((entry = readdir(dir)) != NULL) {
+		char filepath[256];
+		snprintf(filepath, sizeof(filepath), "%s/%s", directory, entry->d_name);
+
+		if(stat(filepath, &info) != -1) {
+			if(S_ISREG(info.st_mode)) {
+				char catchedFile[200];
+				snprintf(catchedFile, sizeof(catchedFile), "Catched File : %s", entry->d_name);
+				logger.verbose(catchedFile);
+			}
+		}
+	}
+
+	closedir(dir);
 }
+
 
 #endif
